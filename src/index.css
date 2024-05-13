@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Sedan+SC&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.leaflet-container{
+    height:400px;
+    width: calc(100% * 5/6);
+    border-radius: 10px;
+    transition: 3s;
+}

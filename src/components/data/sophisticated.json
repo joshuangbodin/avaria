@@ -1,0 +1,18 @@
+[
+    {
+        "img": "room2.jpg",
+        "price": 200
+    },
+    {
+        "img": "room5.jpg",
+        "price": 360
+    },
+    {
+        "img": "room3.jpg",
+        "price": 180
+    },
+    {
+        "img": "room8.jpg",
+        "price": 234
+    }
+]
