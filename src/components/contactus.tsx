@@ -21,7 +21,7 @@ const ContactUs = ({}: Props) => {
           <MapT />
         </div>
         <div className="w-full flex flex-col gap-8 justify-center items-center font-cinzel font-bold text-amber-900">
-          <span className="w-full  flex flex-wrap md:justify-evenly items-center">
+          <span className="w-5/6  flex flex-wrap md:justify-evenly items-center">
             <span className=" mr-72 md:mr-80 lg:mr-96">
               <a href="https://www.bing.com/search?pglt=41&q=geneva&cvid=38fb47631b134f529f2b7c3832ace622&gs_lcrp=EgZjaHJvbWUqBggCEC4YQDIGCAAQRRg7MgYIARBFGDsyBggCEC4YQDIGCAMQRRg5MgYIBBAAGEAyBggFEAAYQDIGCAYQRRg8MgYIBxBFGDwyBggIEEUYPdIBCDYwNjNqMGoxqAIAsAIA&FORM=ANNTA1&PC=U531">
                 Geneva SwitzerLand
@@ -31,7 +31,7 @@ const ContactUs = ({}: Props) => {
               <MapPinnedIcon />
             </span>
           </span>
-          <span className="w-full  flex flex-wrap md:justify-evenly items-center">
+          <span className="w-5/6  flex flex-wrap md:justify-evenly items-center">
             <span className=" mr-72 md:mr-80 lg:mr-96">
               <a href="#">www.AvariaHotel.com</a>
             </span>
@@ -39,7 +39,7 @@ const ContactUs = ({}: Props) => {
               <GlobeIcon />
             </span>
           </span>
-          <span className="w-full  flex flex-wrap  md:justify-evenly items-center">
+          <span className="w-5/6  flex flex-wrap  md:justify-evenly items-center">
             <span className=" mr-72 md:mr-80 lg:mr-96">
               <a href="">+413456788 , +678380034</a>
             </span>

@@ -21,7 +21,7 @@ const SelectRoom = ({}: Props) => {
   return (
     <div>
       <div className={Sty}>
-        <div className="absolute top-28 md:top-40 font-cinzel font-semibold text-amber-900">
+        <div className="relative h-[10vh] top-28 md:top-40 font-cinzel font-semibold text-amber-900">
           <h3>What Do you Like?</h3>
         </div>
         <div className=" w-96 h-96 overflow-hidden mt-28 md:mt-0  relative cursor-pointer delay">

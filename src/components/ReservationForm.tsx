@@ -8,7 +8,7 @@ const ReservationForm = ({}: Props) => {
       <div  className="absolute w-perf2 h-perf rounded-lg mx-12 lg:w-5/6 bg-trans backdrop-blur-sm object-cover"></div>
       <form
         action=""
-        className="w-2/3 lg:w-auto min-h-2/4 z-40 bg-white rounded-lg flex flex-col text-amber-900 lg:flex-row gap-12 p-4  font-cinzel shadow-2xl font-semibold justify-center items-center"
+        className="w-5/6 h-full md:h-max lg:w-auto min-h-2/4 z-40 bg-white rounded-lg flex flex-col text-amber-900 lg:flex-row gap-12 p-4  font-cinzel md:shadow-2xl font-semibold justify-center items-center"
       >
         <div className="flex flex-col items-center w-full p-6  font-cinzel font-semibold">
         <h4 className="flex text-xl items-center font-extrabold text-amber-900 ">
