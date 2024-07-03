@@ -5,7 +5,8 @@ interface Props {}
 
 const CardList = ({}: Props) => {
   return (
-    <div className="flex flex-col lg:flex-row gap-16 w-full justify-center items-center">
+    <div>
+    <div className="flex py-40 flex-col relative px-4 md:flex-row gap-16 w-full justify-center items-center">
       <Card
         imgUrl="bar.jpg"
         head="Bar"
@@ -22,7 +23,12 @@ const CardList = ({}: Props) => {
         head="Rooms"
         des="Enjoy Decorated rooms that provide luxury and Comfortability ,  Room Service and Complimentary treats. "
       />
-    </div>
+      <img
+        src="room7.jpg"
+        className=" absolute top-0 -z-[90]   brightness-[35%] md:brightness-[55%] w-full h-full object-cover"
+      />
+      
+    </div></div>
   );
 };
 

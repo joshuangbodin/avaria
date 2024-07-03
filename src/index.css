@@ -1,14 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Sedan+SC&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+*{
+    transition: all 1s;
+    scroll-behavior: smooth;
+}
+body{
+background: rgb(49, 10, 10);
+overflow-x: hidden;
+}
 .leaflet-container{
     height:400px;
-    width: calc(100% * 5/6);
+    width: 500px;
     border-radius: 10px;
     transition: 3s;
+}
+
+@media screen and (max-width:600px) {
+    .leaflet-container{
+        height:300px;
+        border-radius: 10px;
+        transition: 3s;
+    }
+}
+
+::-webkit-scrollbar{
+    width:5px;
+    background:white;
+
+
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(49, 10, 10);
+    border-radius: 10px;
 }

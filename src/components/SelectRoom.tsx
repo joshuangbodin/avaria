@@ -13,7 +13,7 @@ interface Props {}
 const SelectRoom = ({}: Props) => {
   const [items, setItems] = useState<any[]>();
   const [Sty, setSty] = useState(
-    " flex flex-col gap-5 lg:flex-row w-full h-screen transition-all ease-in-out delay-1000 justify-center items-center"
+    " flex flex-col gap-5 lg:flex-row w-full h-screen flex-col transition-all ease-in-out delay-1000 justify-center items-center"
   );
   const [toggle, setToggle] = useState<string>("block relative rounded-full w-6 h-6 bg-amber-600");
   const [shw, setShw] = useState<string>("hidden");
@@ -21,9 +21,10 @@ const SelectRoom = ({}: Props) => {
   return (
     <div>
       <div className={Sty}>
-        <div className="relative h-[10vh] top-28 md:top-40 font-cinzel font-semibold text-amber-900">
+        <div className="relative md:absolute h-[10vh] top-28 md:top-40 font-cinzel font-semibold text-amber-900">
           <h3>What Do you Like?</h3>
         </div>
+      <div className=" ">
         <div className=" w-96 h-96 overflow-hidden mt-28 md:mt-0  relative cursor-pointer delay">
           <img
             className={
@@ -80,7 +81,7 @@ const SelectRoom = ({}: Props) => {
             </p>
           </div>
         </div>
-      </div>
+      </div></div>
       <div
         className={`w-full h-svery flex justify-center items-center cursor-pointer font-bold ${shw} text-amber-900 gap-3 transition-all ease-in-out delay-150 font-cinzel `}
       >

@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        sedan : ["Sedan SC"],
-        cinzel : ["Cinzel"],
+        sedan : ["Urbanist"] ,
+        cinzel :  ["Libre Baskerville"],
       },
       colors:{
         pinkish : "rgb(250, 230, 250)", 
