@@ -32,11 +32,15 @@ overflow-x: hidden;
 
 ::-webkit-scrollbar{
     width:5px;
-    background:white;
+    background:rgb(128, 2, 2);
 
 
 }
 ::-webkit-scrollbar-thumb{
     background: rgb(49, 10, 10);
     border-radius: 10px;
+}
+
+input[type = "number"]::-webkit-inner-spin-button{
+display: none;
 }

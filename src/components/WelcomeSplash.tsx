@@ -1,6 +1,6 @@
-//imports from react
-import { useState } from "react";
+
 //img import
+
 import img1 from "/hallway.jpg";
 import { Clock12Icon, HeadphonesIcon, HomeIcon } from "lucide-react";
 
@@ -26,6 +26,7 @@ const WelcomeSplash = ({}: Props) => {
             Choose Room
           </button>
         </div>
+       
       </div>
       <div className="w-full items-center bg-amber-950 flex  h-[15vh] ">
         <div className="w-full md:w-1/3  justify-center items-center flex  gap-4 flex-row text-white  md:bg-amber-800 h-full">

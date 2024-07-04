@@ -2,75 +2,82 @@ interface Props {}
 
 const ReservationForm = ({}: Props) => {
   return (
-    <div className="w-full h-screen flex justify-center items-center">
-      
-      <video src="hotelVideo.mp4" autoPlay={true} loop={true} className="absolute w-perf2 h-perf rounded-lg mx-12 lg:w-5/6 object-cover"  ></video>
-      <div  className="absolute w-perf2 h-perf rounded-lg mx-12 lg:w-5/6 bg-trans backdrop-blur-sm object-cover"></div>
-      <form
-        action=""
-        className="w-5/6 h-full md:h-max lg:w-auto min-h-2/4 z-40 bg-white rounded-lg flex flex-col text-amber-900 lg:flex-row gap-12 p-4  font-cinzel md:shadow-2xl font-semibold justify-center items-center"
+  <div className=" h-[85vh] flex justify-center items-center ">
+    <div className="flex flex-col text-white gap-4 w-[450px] bg-black/25 backdrop-blur-sm p-4 h-[550px] justify-center items-center">
+    <form
+      className="flex flex-col border-slate-300 border  text-white gap-4 w-[400px] bg-black/25 p-4 h-[500px] justify-center items-center"
+      action=""
+    >
+      <h3 className=" font-cinzel ">Make Reservation</h3>
+      <p className="text-xs self-start">Arrival</p>
+      <input
+        className="h-12 w-full bg-transparent border-slate-300 border-[0.2px] p-4 placeholder:text-white placeholder:text-sedan"
+        type="date"
+        name=""
+        id=""
+      />
+      <p className="text-xs self-start">Departure</p>
+      <input
+        className="h-12 w-full bg-transparent  border-slate-300 border-[0.2px] p-4 placeholder:text-white placeholder:text-sedan"
+        type="date"
+        name=""
+        id=""
+      />
+      <select
+        title="rooms"
+        className="h-12 w-full bg-transparent border-slate-300 border-[0.2px] px-4 placeholder:text-white placeholder:text-sedan"
+        name=""
+        id=""
       >
-        <div className="flex flex-col items-center w-full p-6  font-cinzel font-semibold">
-        <h4 className="flex text-xl items-center font-extrabold text-amber-900 ">
-          {" "}
-          <span className="block  w-4 h-0.5 bg-amber-600"></span> Book Room{" "}
-          <span className="block  w-4 h-0.5 bg-amber-600"></span>
-        </h4>
+        <option className=" bg-black" value="">
+          Room 1
+        </option>
+        <option className=" bg-black" value="">
+          Room 2
+        </option>
+        <option className=" bg-black" value="">
+          Room 3
+        </option>
+        <option className=" bg-black" value="">
+          Room 4
+        </option>
+        <option className=" bg-black" value="">
+          Room 5
+        </option>
+        <option className=" bg-black" value="">
+          Room 6
+        </option>
+        <option className=" bg-black" value="">
+          Room 7
+        </option>
+        <option className=" bg-black" value="">
+          Room 8
+        </option>
+        <option className=" bg-black" value="">
+          Room 9
+        </option>
+        <option className=" bg-black" value="">
+          Room 10
+        </option>
+      </select>
+      <p className="text-xs">Please Input Number</p>
+      <div className="flex gap-3">
+        <input
+          type="number"
+          placeholder="Adults"
+          className="h-12 w-full bg-transparent border-slate-300 border-[0.2px] p-4 placeholder:text-white placeholder:text-sedan"
+        />
+        <input
+          placeholder="Children"
+          className="h-12 w-full bg-transparent border-slate-300 border-[0.2px] p-4 placeholder:text-white placeholder:text-sedan"
+          type="text"
+        />
       </div>
-        <div className="w-full flex flex-col justify-center items-center ">
-          <p>Arrival</p>
-          <input
-            type="date"
-            name=""
-            id=""
-            className="w-full border border-slate-100 lg:border-slate-200  p-1 h-12 lg:h-32"
-          />
-        </div>
-
-        <div className="w-full flex flex-col justify-center items-center ">
-          <p>Departure</p>
-          <input
-            type="date"
-            name=""
-            id=""
-            className="w-full border  border-slate-100 lg:border-slate-200 p-1 h-12 lg:h-32"
-          />
-        </div>
-
-        <select
-          className="w-full h-10 border border-slate-100 lg:border-slate-200 p-1 lg:h-32"
-          title="number of children"
-          name="Number of Children"
-          id=""
-        >
-          <option value="">--no of Children--</option>
-          <option value="">none</option>
-          <option value="">1</option>
-          <option value="">2</option>
-          <option value="">3</option>
-          <option value="">4</option>
-          <option><input type="text" name="" value="" /></option>
-        </select>
-        <select
-          className="w-full h-10 border border-slate-100 lg:border-slate-200 p-1 lg:h-32"
-          title="number of children"
-          name="Number of Children"
-          id=""
-        >
-          <option value="">--no of Rooms--</option>
-          
-          <option value="">1</option>
-          <option value="">2</option>
-          <option value="">3</option>
-        </select>
-        <button
-          className=" bg-amber-900 h-10 hover:bg-amber-700 transition ease-in-out lg:h-32 delay-200 w-full text-white"
-          type="submit"
-        >
-          Book
-        </button>
-      </form>
+      <button className=" bg-amber-950 w-full h-12 hover:scale-90" type="submit">Book Room</button>
+    </form>
+  
     </div>
+  </div>  
   );
 };
 
