@@ -20,7 +20,7 @@ const ContactUs = ({}: Props) => {
         <form className="w-[80%] md:w-[400px] flex flex-col gap-10 h-[350px]" action="">
           <input  className =" bg-transparent border-b p-2 placeholder:text-white text-white placeholder:font-sedan " type="text" name="" placeholder="name" id="" />
           <input  className =" bg-transparent border-b p-2 placeholder:text-white text-white placeholder:font-sedan " type="email" name="" placeholder=" email" id="" />
-          <textarea name="" className=" bg-black/10 border-b placeholder:text-white text-white p-2" placeholder="Message..." rows={5} id=""></textarea>
+          <textarea name="" className=" bg-transparent border-b placeholder:text-white text-white p-2" placeholder="Message..." rows={5} id=""></textarea>
           <button className="border text-white h-12 hover:scale-90">Send Message</button>
         </form>
       </div>
