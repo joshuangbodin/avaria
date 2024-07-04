@@ -10,7 +10,7 @@ interface Props {
 
 const Card = ({ imgUrl, head, des }: Props) => {
   return (
-    <div className="w-4/6 lg:w-1/5 cursor-pointer justify-center hover:translate-x-1 items-center bg-[rgba(50,50,50,.5)]   backdrop-blur-sm  h-96 flex gap-4 flex-col font-sedan text-sm md:text-md text-white">
+    <div className="w-5/6 lg:w-1/5 cursor-pointer justify-center hover:translate-x-1 items-center bg-[rgba(50,50,50,.5)]   backdrop-blur-sm  h-96 flex gap-4 flex-col font-sedan text-sm md:text-md text-white">
       <div className="w-full lg:w-full h-96 lg:h-96 overflow-hidden">
         <img
           src={imgUrl}
