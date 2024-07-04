@@ -15,14 +15,14 @@ const WelcomeSplash = ({}: Props) => {
           src={img1}
           alt=""
         />
-        <div className=" absolute text-white top-[50%] left-[20%] -translate-x-[20%] -translate-y-[50%] gap-5  flex flex-col  w-[60%] md:w-1/2 lg:w-2/5 h-[50%]">
-          <h1 className=" font-semibold font-cinzel capitalize text-3xl md:text-4x lg:text-6xl spacing">
-            Enjoy your <br /> Dream Vacation
+        <div className=" absolute text-white top-[50%] left-[20%] -translate-x-[20%] -translate-y-[50%] gap-5  flex flex-col  w-full p-8 md:p-0 items-center md:items-start md:w-1/2 lg:w-2/5 h-[50%]">
+          <h1 className=" font-semibold font-cinzel text-center md:text-start capitalize text-3xl md:text-4x lg:text-6xl spacing">
+            Enjoy your <br className="hidden md:block" /> Dream Vacation
           </h1>
-          <p className="text-sm md:text-md lg:text-lg font-sedan">
+          <p className="text-sm  text-center md:text-start md:text-md lg:text-lg font-sedan">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum quisquam deserunt error veritatis quos iure culpa dolor fugiat ipsam, a blanditiis tenetur ducimus unde. Rerum quia minima non doloremque obcaecati!
           </p>
-          <button className=" bg-amber-950 hover:scale-90 text-sm md:txt-md uppercase h-10 w-1/2 md:w-1/3 font-semibold p-1  ">
+          <button className=" bg-amber-950 hover:scale-90 text-sm md:txt-md uppercase h-12 mt-4  w-full md:w-1/3 font-semibold p-1  ">
             Choose Room
           </button>
         </div>

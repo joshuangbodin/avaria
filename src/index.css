@@ -22,13 +22,7 @@ overflow-x: hidden;
     transition: 3s;
 }
 
-@media screen and (max-width:600px) {
-    .leaflet-container{
-        height:300px;
-        border-radius: 10px;
-        transition: 3s;
-    }
-}
+
 
 ::-webkit-scrollbar{
     width:5px;

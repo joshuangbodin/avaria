@@ -14,7 +14,7 @@ const ContactUs = ({}: Props) => {
       </div>
       {/*Map Component*/}
       <div className=" w-full flex flex-col md:flex-row gap-12 h-perf justify-center items-center rounded-lg ">
-        <div>
+        <div className=" hidden md:block">
           <MapT />
         </div>
         <form className="w-[80%] md:w-[400px] flex flex-col gap-10 h-[350px]" action="">
